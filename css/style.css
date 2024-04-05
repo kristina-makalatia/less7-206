@@ -1,0 +1,109 @@
+.youtube-icon {
+    font-size: 35px;
+    color: red;
+}
+.fa-facebook-messenger {
+    font-size: 35px;
+    color: blue;
+    margin-left: 30px;
+}
+.title-icon {
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+    border: 2px solid red;
+
+    /* margin-top: 35px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-left: 50px; */
+    margin: 35px;
+
+    text-align: center;
+}
+
+
+/* header styles */
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 30px;
+    /* 1 variant */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+   
+}
+.ul-item {
+    display: flex;
+}
+body {
+    height: 1800px;
+}
+.header-wraper {
+    /* 1 varianti */
+    /* height: 76px; */
+
+    /* 2 varianti */
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index: 100;
+}
+
+/* chat icon */
+.chat-image {
+    height: 80px;
+}
+.chat-icon {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* position relative & absolute */
+.parent-box {
+    width: 600px;
+    height: 600px;
+    background-color: lightgreen;
+    position: relative;
+}
+.child-box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left:150px;
+    z-index: 2;
+}
+.child-box2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 3;
+}
+.hello {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+/* image example */
+.text-image {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    font-size: 35px;
+    color: red;
+}
+.image-wraper {
+    position: relative;
+    display: inline-block;
+}
